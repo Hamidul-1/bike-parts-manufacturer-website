@@ -15,6 +15,7 @@ function App() {
         <Route path="blogs" element={<Blogs></Blogs>}></Route>
         <Route path="portfolio" element={<MyPortfolio></MyPortfolio>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        
       </Routes>
     </div>
   );
