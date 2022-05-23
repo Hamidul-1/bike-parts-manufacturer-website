@@ -9,7 +9,7 @@ const Summary = () => {
             <h2 className='my-12 text-2xl lg:text-4xl font-bold text-center text-primary'>Millions Business Trust US</h2>
             <p className='text-center text-xl mb-12 uppercase'>Try to Understand Customer Expractation</p>
 
-            <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5 mx-auto'>
                 <div class="card w-64 bg-base-100 shadow-2xl">
                     <div class="card w-64 bg-base-100 mx-auto">
                         <figure class="px-10 pt-10">
