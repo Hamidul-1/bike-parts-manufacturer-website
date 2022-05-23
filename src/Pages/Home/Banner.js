@@ -1,6 +1,8 @@
 import React from 'react';
 import bike from '../../assets/images/images-1.jpg'
 
+
+
 const Banner = () => {
     return (
         <div class="hero min-h-screen">

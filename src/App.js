@@ -4,6 +4,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import MyPortfolio from './Pages/MyPortfolio/MyPortfolio';
+import Footer from './Pages/Shared/Footer';
 import Navbar from './Pages/Shared/Navbar';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
