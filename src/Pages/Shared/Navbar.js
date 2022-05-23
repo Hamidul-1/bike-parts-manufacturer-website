@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/images/logo.png'
 
 const Navbar = () => {
     const menuItems = <>
-        <li><Link to ="/">Home</Link></li>
-        <li><Link to ="/blogs">Blogs</Link></li>
-        <li><Link to ="/portfolio">My Portfolio</Link></li>
-        <li><Link to ="/login">Login</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/blogs">Blogs</Link></li>
+        <li><Link to="/portfolio">My Portfolio</Link></li>
+        <li><Link to="/login">Login</Link></li>
     </>
     return (
         <div class="navbar bg-base-100">
@@ -19,7 +20,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">Parts Manufacture</a>
+                <a class="btn btn-ghost normal-case text-xl"><img height="50px" width="50px" src={logo} alt="" />Parts Manufacture</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
