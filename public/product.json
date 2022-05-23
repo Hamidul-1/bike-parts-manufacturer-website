@@ -13,7 +13,7 @@
         "name": "Bike Fuel Tank Cap With Lock",
         "img": "https://i.ibb.co/Mpjv3c7/img-2.jpg",
         "price": 120,
-        "description": "An air filter is a device for filtering particles from the air. As with any filter, air conditioner filters consist of a porous structure through which coarse and large harmful particles cannot pass through.",
+        "description": "The cap prevents the leakage of fuel vapours from the filler neck, which can be a major source of hydrocarbon emissions. A leaking or missing gas cap can result in the release of 90 litres of fuel per year into the atmosphere.",
         "min": 10,
         "quantity": 3000
     },
@@ -22,7 +22,7 @@
         "name": "Motorcycle Wheel Spokes",
         "img": "https://i.ibb.co/HPNj6NL/img-3.jpg",
         "price": 130,
-        "description": "The expansion valve removes pressure from the liquid refrigerant to allow expansion or change of state from a liquid to a vapor in the evaporator.",
+        "description": "A spoke is one of some number of rods radiating from the center of a wheel (the hub where the axle connects), connecting the hub with the round traction surface.",
         "min": 10,
         "quantity": 2000
     },
@@ -31,25 +31,25 @@
         "name": "Motorcycle Timing Chain",
         "img": "https://i.ibb.co/m4Y9sdX/pic-4.jpg",
         "price": 130,
-        "description": "CONDENSER COIL (also known as an outdoor coil): Part of the outdoor portion of a split-system air conditioner or heat pump. It works along with compressor by converting refrigerant that is in a gas form back to a liquid, the coil sends heat carried by the refrigerant to the outside.",
+        "description": "The timing chain in a motorcycle is a small roller chain that is designed to drive the camshaft. That’s why it’s also known as a “cam chain” as well. The camshaft is a little spinning shaft on top of the engine, which is designed to control the valves. Surprisingly, a motorcycle timing chain looks like a regular bicycle chain..",
         "min": 10,
         "quantity": 2500
     },
     {
         "_id": 5,
-        "name": "Bick front forks",
+        "name": "Motorcycle front forks",
         "img": "https://i.ibb.co/zXrZ0XR/img-5.jpg",
         "price": 190,
-        "description": "AC refrigerants are the invisible force behind the working of your air conditioner. The ability of your air conditioner to cool is dependent on it. Refrigerants absorb the heat and provide cool air as it runs through the compressor and the evaporator.",
+        "description": "In nearly every motorcycle available today, the front wheel is held on by an axle that's connected to the fork. It's called a fork because it has two prongs that go around each side of the wheel",
         "min": 10,
         "quantity": 2200
     },
     {
         "_id": 6,
-        "name": "Bike Display",
-        "img": "https://i.ibb.co/6HXb3D0/img-6.jpg",
+        "name": "Motorcycle light",
+        "img": "https://i.ibb.co/D8gMPyw/img-6.jpg",
         "price": 90,
-        "description": "There can be many reasons why you are looking for a fan that cools air just like its older brother — the air conditioner. It can be an eco-friendly temporary solution for a few weeks in summer.",
+        "description": "Motorcycle headlights are one of the most important safety features of a motorcycle. They work in both giving you visibility at low light conditions or at night, and they also let people know that you're there.",
         "min": 10,
         "quantity": 6700
     }
