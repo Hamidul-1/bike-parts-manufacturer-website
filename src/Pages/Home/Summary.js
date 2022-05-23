@@ -5,7 +5,8 @@ import React from 'react';
 const Summary = () => {
     return (
         <div className='px-8 my-24'>
-            <h2 className='text-5xl font-bold text-center mb-2 uppercase text-cyan-300'>Milions Business Trust US</h2>{/* bg-gradient-to-r from-secondary to-primary */}
+            {/* bg-gradient-to-r from-secondary to-primary */}
+            <h2 className='my-12 text-2xl lg:text-4xl font-bold text-center text-primary'>Millions Business Trust US</h2>
             <p className='text-center text-xl mb-12 uppercase'>Try to Understand Customer Expractation</p>
 
             <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-5'>

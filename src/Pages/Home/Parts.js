@@ -10,7 +10,7 @@ const Parts = () => {
     }, [])
     return (
         <div className='my-20'>
-            <h2 className='my-12 text-2xl lg:text-4xl font-bold text-center text-primary'>Our available products</h2>
+            <h2 className='my-12 text-2xl lg:text-4xl font-bold text-center text-primary'>Our available Parts</h2>
 
             <div className='mx-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-12'>
                 {
