@@ -6,7 +6,8 @@
         "price": 270,
         "description": "Everything you love about the Display, but in color!  A thinner display with improvements over the old black and white model.  Now standard with USB port.  Compatible everywhere the standard KT-LCD3 is.",
         "min": 10,
-        "quantity": 1000
+        "quantity": 1000,
+        "availableQuantity": 2000
     },
     {
         "_id": 2,
@@ -15,7 +16,8 @@
         "price": 120,
         "description": "The cap prevents the leakage of fuel vapours from the filler neck, which can be a major source of hydrocarbon emissions. A leaking or missing gas cap can result in the release of 90 litres of fuel per year into the atmosphere.",
         "min": 10,
-        "quantity": 3000
+        "quantity": 3000,
+        "availableQuantity": 3500
     },
     {
         "_id": 3,
@@ -24,7 +26,8 @@
         "price": 130,
         "description": "A spoke is one of some number of rods radiating from the center of a wheel (the hub where the axle connects), connecting the hub with the round traction surface.",
         "min": 10,
-        "quantity": 2000
+        "quantity": 2000,
+        "availableQuantity": 2500
     },
     {
         "_id": 4,
@@ -33,7 +36,8 @@
         "price": 130,
         "description": "The timing chain in a motorcycle is a small roller chain that is designed to drive the camshaft. That’s why it’s also known as a “cam chain” as well. The camshaft is a little spinning shaft on top of the engine, which is designed to control the valves. Surprisingly, a motorcycle timing chain looks like a regular bicycle chain..",
         "min": 10,
-        "quantity": 2500
+        "quantity": 2500,
+        "availableQuantity": 300
     },
     {
         "_id": 5,
@@ -42,7 +46,8 @@
         "price": 190,
         "description": "In nearly every motorcycle available today, the front wheel is held on by an axle that's connected to the fork. It's called a fork because it has two prongs that go around each side of the wheel",
         "min": 10,
-        "quantity": 2200
+        "quantity": 2200,
+        "availableQuantity": 3000
     },
     {
         "_id": 6,
@@ -51,6 +56,7 @@
         "price": 90,
         "description": "Motorcycle headlights are one of the most important safety features of a motorcycle. They work in both giving you visibility at low light conditions or at night, and they also let people know that you're there.",
         "min": 10,
-        "quantity": 6700
+        "quantity": 6700,
+        "availableQuantity": 7000
     }
 ]
