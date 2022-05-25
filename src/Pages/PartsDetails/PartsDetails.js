@@ -4,17 +4,17 @@ import auth from '../../firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
 const PartsDetails = () => {
-    const {productId} = useParams();
+    const { productId } = useParams();
     const [product, setProduct] = useState({});
-    const {_id, name, img, description, min, quantity, availableQuantity, price} = product;
+    const { _id, name, img, description, min, quantity, availableQuantity, price } = product;
     console.log(_id);
     const [user] = useAuthState(auth)
 
     useEffect(() => {
         const url = `http://localhost:5000/part/${productId}`;
-            fetch(url)
-                .then(res => res.json())
-                .then(data => setProduct(data))
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setProduct(data))
         console.log(product);
     }, [productId])
 
@@ -27,6 +27,7 @@ const PartsDetails = () => {
             customerName: user.displayName,
             phone: e.target.phone.value,
             address: e.target.address.value,
+            placePrice: e.target.quantity.value * price,
             placeOrderQuantity: e.target.quantity.value
         }
         fetch('http://localhost:5000/placeOrder', {
@@ -93,6 +94,15 @@ const PartsDetails = () => {
                       text-gray-600 placeholder-gray-400
                       outline-none"/>
                         </div>
+                        {/* <div class="flex items-center mb-5">
+
+                            <label for="name" class="inline-block w-20 mr-6 text-right 
+                                 font-bold text-gray-600">Price</label>
+                            <input type="number" id="name" name="price"
+                                class="flex-1 py-2 border-b-2 border-gray-400 focus:border-green-400 
+                      text-gray-600 placeholder-gray-400
+                      outline-none"/>
+                        </div> */}
                         <div class="flex items-center mb-5">
 
                             <label for="name" class="inline-block w-20 mr-6 text-right 
