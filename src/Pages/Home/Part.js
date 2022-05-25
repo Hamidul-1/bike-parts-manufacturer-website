@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Part = ({ part }) => {
-    const { _id,name, description, price, img, min, quantity, availableQuantity } = part;
+    const {_id,name, description, price, img, min, quantity, availableQuantity } = part;
     const navigate = useNavigate();
     const HandlePurches=id=>{
         navigate(`/partDetails/${id}`);

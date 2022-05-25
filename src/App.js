@@ -19,6 +19,8 @@ import PartsDetails from './Pages/PartsDetails/PartsDetails';
 import Footer from './Pages/Shared/Footer';
 import Navbar from './Pages/Shared/Navbar';
 import NotFound from './Pages/Shared/NotFound';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -36,12 +38,13 @@ function App() {
           <Route path="review" element={<AddReview></AddReview>}></Route>
           <Route path="profile" element={<MyProfile></MyProfile>}></Route>
         </Route>
-        
+
         <Route path="login" element={<Login></Login>}></Route>
         <Route path="signUp" element={<SignUp></SignUp>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
+      <ToastContainer />
     </div>
   );
 }

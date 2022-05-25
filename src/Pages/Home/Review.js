@@ -4,7 +4,8 @@ import React from 'react';
 
 const Review = ({ cReview }) => {
     const { name, img, review, ratings } = cReview;
-    let n = ratings;
+    const IntRatings = parseInt(ratings);
+    let n = IntRatings;
     return (
         <div class="card w-96 bg-neutral text-neutral-content">
             <div class="avatar mx-auto pt-5">

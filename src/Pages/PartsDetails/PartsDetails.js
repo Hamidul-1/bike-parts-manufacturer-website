@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import auth from '../../firebase.init';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { toast } from 'react-toastify';
 
 const PartsDetails = () => {
     const { productId } = useParams();
@@ -36,7 +37,10 @@ const PartsDetails = () => {
             body: JSON.stringify(placeOrder)
         })
             .then(res => res.json())
-            .then(data => console.log(data))
+            .then(data => {
+                toast.success('Successfully added your review');
+                console.log(data);
+            })
 
     }
 
@@ -121,7 +125,6 @@ const PartsDetails = () => {
                       text-gray-600 placeholder-gray-400
                       outline-none"/>
                         </div>
-
 
 
                         <div class="text-right">

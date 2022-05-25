@@ -8,11 +8,25 @@ const MyOrders = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/placeOrder?email=${user.email}`)
-                .then(res => res.json())
-                .then(data => setOrders(data))
+            fetch(`http://localhost:5000/placeOrder?email=${user.email}`,{
+                method: 'GET',
+                headers: {
+                    'authorization': `Bearer ${localStorage.getItem('accessToken')}`
+                }
+            })
+                // .then(res => res.json())
+                // .then(data => setOrders(data))
+                .then(res => {
+                    console.log('res',res)
+                    return res.json()
+                })
+                .then(data => {
+                    setOrders(data)
+                });
+                
         }
-    }, [])
+    }, [user])
+
     return (
         <div>
             <h2>My Orders: {orders.length}</h2>
@@ -25,7 +39,8 @@ const MyOrders = () => {
                             <th>Name</th>
                             <th>Price</th>
                             <th>Quantity</th>
-                            <th>Payment</th>
+                            <th>Action</th>
+                            <th>PaymentStatus</th>
                         </tr>
                     </thead>
                     <tbody>
