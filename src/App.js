@@ -18,6 +18,8 @@ import Navbar from './Pages/Shared/Navbar';
 import NotFound from './Pages/Shared/NotFound';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import RequireAdmin from './Pages/Login/RequireAdmin';
 import Users from './Pages/Dashboard/Users';
 
 
@@ -36,7 +38,7 @@ function App() {
           <Route index element={<MyOrders></MyOrders>}></Route>
           <Route path="review" element={<AddReview></AddReview>}></Route>
           <Route path="profile" element={<MyProfile></MyProfile>}></Route>
-          <Route path="users" element={<Users></Users>}></Route>
+          <Route path="users" element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>
         </Route>
 
         <Route path="login" element={<Login></Login>}></Route>
