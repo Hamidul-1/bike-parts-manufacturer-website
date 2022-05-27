@@ -55,8 +55,6 @@ const Summary = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );

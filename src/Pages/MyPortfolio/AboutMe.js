@@ -18,7 +18,7 @@ const AboutMe = () => {
                     <p className=' mb-2 font-bold'>Facebook: https://www.facebook.com/profile.php?id=100054727941258</p>
 
 
-                    <button class="btn mt-5 mb-5 bg-blue-900">Download CV <FontAwesomeIcon className='text-white text-2xl pl-2' icon={faArrowsDownToLine}></FontAwesomeIcon></button>
+                    <button class="btn mt-5 mb-5 btn btn-primary">Download CV <FontAwesomeIcon className='text-white text-2xl pl-2' icon={faArrowsDownToLine}></FontAwesomeIcon></button>
                 </div>
                 <div className='grid lg:grid-cols-2 grid-cols-1 gap-5'>
                     <div class="card w-64 bg-black  shadow-2xl">
