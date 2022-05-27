@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutMe from './AboutMe';
 
 const MyPortfolio = () => {
     return (
         <div>
-            <h2>My Portfolio</h2>
+            <AboutMe></AboutMe>
         </div>
     );
 };
