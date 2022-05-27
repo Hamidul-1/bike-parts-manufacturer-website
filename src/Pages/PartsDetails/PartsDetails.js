@@ -93,20 +93,12 @@ const PartsDetails = () => {
 
                             <label for="name" class="inline-block w-20 mr-6 text-right 
                                  font-bold text-gray-600">Quantity</label>
-                            <input type="number" id="name" name="quantity" min={min} placeholder="Name" max={quantity}
+                            <input type="number" id="name" name="quantity" min={min} defaultValue={min} placeholder="Name" max={quantity}
                                 class="flex-1 py-2 border-b-2 border-gray-400 focus:border-green-400 
                       text-gray-600 placeholder-gray-400
                       outline-none"/>
                         </div>
-                        {/* <div class="flex items-center mb-5">
-
-                            <label for="name" class="inline-block w-20 mr-6 text-right 
-                                 font-bold text-gray-600">Price</label>
-                            <input type="number" id="name" name="price"
-                                class="flex-1 py-2 border-b-2 border-gray-400 focus:border-green-400 
-                      text-gray-600 placeholder-gray-400
-                      outline-none"/>
-                        </div> */}
+                        
                         <div class="flex items-center mb-5">
 
                             <label for="name" class="inline-block w-20 mr-6 text-right 
