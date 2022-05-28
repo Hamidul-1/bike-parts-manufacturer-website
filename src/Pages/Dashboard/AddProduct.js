@@ -13,7 +13,7 @@ const AddProduct = () => {
             quantity: e.target.quantity.value
         }
         console.log(product);
-        fetch('http://localhost:5000/part', {
+        fetch('http://localhost:5000/product', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(product)

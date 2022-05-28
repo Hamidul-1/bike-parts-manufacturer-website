@@ -48,7 +48,7 @@ const ManageProduct = () => {
                                 <td>{part.name.slice(0, 10)}...</td>
                                 <td>{part.description.slice(0, 15)}...</td>
                                 <td className="text-center">${part.price}</td>
-                                <td className="text-center">{part.minimum}</td>
+                                <td className="text-center">{part.min}</td>
                                 <td className="text-center">{part.quantity}</td>
                                 <td>
                                     <label

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import Order from './Order';
 
 const MyOrders = () => {
     const [orders, setOrders] = useState([])
@@ -47,20 +48,19 @@ const MyOrders = () => {
                             <th>Name</th>
                             <th>Price</th>
                             <th>Quantity</th>
-                            <th>Action</th>
+                            <th>Payment</th>
                             <th>PaymentStatus</th>
                         </tr>
                     </thead>
                     <tbody>
                         {
-                            orders.map((a, index) => <tr>
-                                <th>{index + 1}</th>
-                                <td>{a.placeOrderProductName}</td>
-                                <td>{a.placePrice}</td>
-                                <td>{a.placeOrderQuantity}</td>
-                                <td>{a.treatment}</td>
-                            </tr>)
-                        }
+                            orders.map((a, index) => <Order
+                                key={a._id}
+                                a={a}
+                                index={index}
+                            ></Order>
+
+                            )}
                     </tbody>
                 </table>
             </div>
