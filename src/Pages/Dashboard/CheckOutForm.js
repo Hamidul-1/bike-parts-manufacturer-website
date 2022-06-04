@@ -14,7 +14,7 @@ const CheckOutForm = ({ order }) => {
     const { _id, placePrice, customerName, customerEmail } = order;
 
     useEffect(() => {
-        fetch("http://localhost:5000/create-payment-intent", {
+        fetch("https://enigmatic-island-80715.herokuapp.com/create-payment-intent", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
@@ -82,7 +82,7 @@ const CheckOutForm = ({ order }) => {
                 transactionId: paymentIntent.id,
             };
 
-            fetch(`http://localhost:5000/placeOrder/${_id}`, {
+            fetch(`https://enigmatic-island-80715.herokuapp.com/placeOrder/${_id}`, {
                 method: "PATCH",
                 headers: {
                     "content-type": "application/json",

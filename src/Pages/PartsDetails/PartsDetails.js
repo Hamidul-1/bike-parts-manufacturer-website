@@ -12,7 +12,7 @@ const PartsDetails = () => {
     const [user] = useAuthState(auth)
 
     useEffect(() => {
-        const url = `http://localhost:5000/part/${productId}`;
+        const url = `https://enigmatic-island-80715.herokuapp.com/part/${productId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setProduct(data))
@@ -31,7 +31,7 @@ const PartsDetails = () => {
             placePrice: e.target.quantity.value * price,
             placeOrderQuantity: e.target.quantity.value
         }
-        fetch('http://localhost:5000/placeOrder', {
+        fetch('https://enigmatic-island-80715.herokuapp.com/placeOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(placeOrder)

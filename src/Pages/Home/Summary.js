@@ -13,11 +13,11 @@ const Summary = () => {
                 <div class="card w-64 bg-base-100 shadow-2xl">
                     <div class="card w-64 bg-base-100 mx-auto">
                         <figure class="px-10 pt-10">
-                            <FontAwesomeIcon className='text-blue-900 text-4xl' icon={faFlag}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='text-primary text-4xl' icon={faFlag}></FontAwesomeIcon>
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title text-5xl">17+</h2>
-                            <p className='text-blue-900 text-xl'>Countries</p>
+                            <p className='text-primary text-xl'>Countries</p>
                         </div>
                     </div>
 
@@ -25,33 +25,33 @@ const Summary = () => {
                 <div class="card w-64 bg-base-100 shadow-xl">
                     <div class="card w-64 bg-base-100 mx-auto">
                         <figure class="px-10 pt-10">
-                            <FontAwesomeIcon className='text-blue-900 text-4xl' icon={faBuilding}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='text-primary text-4xl' icon={faBuilding}></FontAwesomeIcon>
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title text-5xl">535+</h2>
-                            <p className='text-blue-900  text-xl'>Investor</p>
+                            <p className='text-primary  text-xl'>Investor</p>
                         </div>
                     </div>
                 </div>
                 <div class="card w-64 bg-base-100 shadow-xl">
                     <div class="card w-64 bg-base-100 mx-auto">
                         <figure class="px-10 pt-10">
-                            <FontAwesomeIcon className='text-blue-900 text-4xl' icon={faPeopleGroup}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='text-primary text-4xl' icon={faPeopleGroup}></FontAwesomeIcon>
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title text-5xl">273+</h2>
-                            <p className='text-blue-900  text-xl'>Client</p>
+                            <p className='text-primary  text-xl'>Client</p>
                         </div>
                     </div>
                 </div>
                 <div class="card w-64 bg-base-100 shadow-xl">
                     <div class="card w-64 bg-base-100 mx-auto">
                         <figure class="px-10 pt-10">
-                            <FontAwesomeIcon className='text-blue-900 text-4xl' icon={faThumbsUp}></FontAwesomeIcon>
+                            <FontAwesomeIcon className='text-primary text-4xl' icon={faThumbsUp}></FontAwesomeIcon>
                         </figure>
                         <div class="card-body items-center text-center">
                             <h2 class="card-title text-5xl">432+</h2>
-                            <p className='text-blue-900  text-xl'>Feedbacks</p>
+                            <p className='text-primary  text-xl'>Feedbacks</p>
                         </div>
                     </div>
                 </div>

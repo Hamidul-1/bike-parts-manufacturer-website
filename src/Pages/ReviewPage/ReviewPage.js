@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Review from './Review';
+import Review from '../Home/Review';
+
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([]);
@@ -14,7 +15,7 @@ const Reviews = () => {
             
             <div className='mx-auto grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-12'>
                 {
-                    reviews.slice(-3).map(cReview => <Review
+                    reviews.map(cReview => <Review
                         key={cReview._id}
                         cReview={cReview}
                     ></Review>)

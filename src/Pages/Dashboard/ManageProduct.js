@@ -11,7 +11,7 @@ const ManageProduct = () => {
         isLoading,
         refetch,
     } = useQuery("parts", () =>
-        fetch('http://localhost:5000/part').then((res) => res.json())
+        fetch('https://enigmatic-island-80715.herokuapp.com/part').then((res) => res.json())
     );
 
     if (isLoading) {

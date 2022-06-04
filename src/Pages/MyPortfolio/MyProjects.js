@@ -7,7 +7,7 @@ import mathTutor from '../../assets/images/MathTutor.png'
 const MyProjects = () => {
     return (
         <div className='text-center px-12 mb-24'>
-            <h1 className='text-center font-bold mb-12 text-5xl uppercase'>My Best <span className='text-blue-900'>Projects</span></h1>
+            <h1 className='text-center font-bold mb-12 text-5xl uppercase'>My Best <span className='text-primary'>Projects</span></h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2'>
                 <div class="card card-compact w-96 bg-base-100 shadow-xl">
                     <figure>

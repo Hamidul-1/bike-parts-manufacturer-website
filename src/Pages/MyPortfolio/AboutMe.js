@@ -5,7 +5,7 @@ import React from 'react';
 const AboutMe = () => {
     return (
         <div className='mt-12 px-12'>
-            <h1 className='text-center font-bold mb-12 text-5xl uppercase'>About <span className='text-blue-900'>Me</span></h1>
+            <h1 className='text-center font-bold mb-12 text-5xl uppercase'>About <span className='text-primary'>Me</span></h1>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div>
                     <h2 className=' font-bold mb-3 text-3xl uppercase'>Personal Infromation</h2>

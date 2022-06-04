@@ -11,7 +11,7 @@ const PortfolioBanner = () => {
                     <img src={profile} class="max-w-sm rounded-lg shadow-2xl" />
                 </div>
                 <div>
-                    <h1 class="text-5xl font-bold text-blue-900">I'm Md.Hamidul Islam</h1>
+                    <h1 class="text-5xl font-bold text-primary">I'm Md.Hamidul Islam</h1>
                     <h1 class="text-5xl font-bold">Web Developer</h1>
                     <p class="py-6">I'm a full stack developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.</p>
                     <button class="btn btn-primary">More About Me <FontAwesomeIcon className='text-white text-2xl pl-2' icon={faArrowRight}></FontAwesomeIcon></button>
