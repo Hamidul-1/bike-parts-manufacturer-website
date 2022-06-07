@@ -6,7 +6,7 @@ const ManageAllOrders = () => {
     const [orders, setOrders] = useState([]);
     const [ship, setShip] = useState(false);
     useEffect(() => {
-        fetch('https://enigmatic-island-80715.herokuapp.com/orders', {
+        fetch('http://localhost:5000/orders', {
             method: 'GET',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
