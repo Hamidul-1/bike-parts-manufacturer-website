@@ -6,7 +6,7 @@ const Pricing = () => {
         <section class="bg-white dark:bg-gray-800">
             <div class="container px-6 py-8 mx-auto">
                 <h2 className='my-12 text-2xl lg:text-4xl font-bold text-center text-primary'>Our Special Packages</h2>
-                <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
                     <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700">
                         <p class="text-lg font-medium text-gray-800 dark:text-gray-100">Base</p>
                         <h4 class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100">$39 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
