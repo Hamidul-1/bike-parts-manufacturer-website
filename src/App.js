@@ -50,9 +50,6 @@ function App() {
           <Route path="addProduct" element={<RequireAdmin><AddProduct></AddProduct></RequireAdmin>}></Route>
           <Route path="manageProduct" element={<RequireAdmin><ManageProduct></ManageProduct></RequireAdmin>}></Route>
           <Route path='payment/:paymentId' element={<Payment></Payment>}></Route>
-          
-
-          
         </Route>
 
         <Route path="login" element={<Login></Login>}></Route>
